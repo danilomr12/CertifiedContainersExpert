@@ -458,7 +458,7 @@ kubectl get pods
 Agora vamos para dentro do container.
 
 ```bash
-kubectl exec -it ubuntu -- bash
+kubectl exec -it giropops -c girus -- bash
 ```
 
 Agora vamos instalar o comando `stress`.
